@@ -1,0 +1,89 @@
+/* to create some of the utilities => basic-files for ALL-PROJECTS  */
+/* refer the link : https://helpx.adobe.com/xd/get-started.html  ==> adobe xd */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:ital@1&display=swap');
+/* creating variables */
+:root {
+    --main-bg-color: brown;
+    --font1: 'Open Sans', sans-serif;
+    --font2: 'Roboto', sans-serif;
+}
+
+/* i want to make a text in  center  */
+.center{
+    text-align: center;
+}
+/* i want to create a separate classes for fonts  */
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+
+}
+/* creating naviagtion-bar-2levels ==> and to get everything(content) in center*/
+.max-width-1 {
+    max-width: 80vw; /*px => not responsiive , vw=>view-port-width =>responsive*/
+}
+
+.border-hr{
+    border: 2px solid black;
+}
+.max-width-2 {
+    max-width: 70vw;
+}
+
+/* i want to bring everything at center */
+.m-auto{
+    margin: auto;
+}
+/* i want to set the margin from x-axis  */
+.mx-23{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+/* i want to create a class for margin with 2-from y axis for both +y and -y   */
+.my-32{
+margin-top: 32px;
+margin-bottom: 32px;
+}
+
+/* creating a search button */
+.btn{
+    padding: 3px 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: var(--font1);
+    cursor: pointer;
+    /* i want some effect on btn , use transition ==> gradually color-change */
+    transition: all 0.5s ease-in-out;
+
+}
+
+/* if someone hovers the mouse on button */
+.btn:hover{
+    color: white;
+    background-color:purple;
+}
+
+/* this gives design to your input ==> Article-search*/
+.form-input{
+    padding: 0px 4px;
+    font-size: 16px;    
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0px 13px;
+    font-family: var(--font1);
+    padding-top: 3px;
+
+}
+/* to target textarea */
+.contact-form input,textarea{
+    width: 44vw;
+    padding: 0px 6px;
+    margin: 7px 0px; /*0px => i want to bring submit button in same column vise */
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 2px solid orange;
+    border-radius: 10px;
+}

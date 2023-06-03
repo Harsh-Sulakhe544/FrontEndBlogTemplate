@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='css/utils.css'>
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/contact.css'>
+    <link rel='stylesheet' href='css/about.css'>
+    <link rel='stylesheet' href='css/mobile.css'>
+
+    <title> G-Heavenly-BLOGS</title>
+</head>
+<body>
+    <!-- to create a navigation-bars -->
+    <nav class='navigation  max-width-1 m-auto'>
+        <div class='nav-left'>
+            <!-- anyone-can click on logo to goto home-page -->
+            <a href='/'>             
+                <span><img src='img/newblogger.png' alt='blogger' width="94px" srcset=''></span>
+            </a>
+        <ul>
+            <li> <a href='/'>Home</a> </li>
+            <li> <a href='#'>About</a> </li>
+            <li> <a href='/contact.html'>Contact</a> </li>
+        </ul>
+        </div>
+        <div class='nav-right'>
+            <!-- i want to create a form for serach-page -->
+            <form action='/search.html' method="get">
+                <!-- name=querry ==> if i search django=> url => querry=django -->
+                <input class="form-input" type='text' name='querry' id='' placeholder="Article Search">
+                <button class='btn'>Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- to create a line after the nav-bar -->
+    <div class='max-width-1 m-auto'>
+        <hr>
+    </div>
+
+    <!-- i want to create a image for about-page -->
+    <div class='post-img'>
+        <img src='img/image.jpg' alt='' srcset=''>
+    </div>
+
+        <!-- to create a main content -->
+        <div class='blog-post-content  max-width-2  m-auto  my-32  m-auto'>
+            <!-- i want to divide content in to 2 parts , so 1 to write , other is for image  -->
+            <h1 class="font1">The Heaven For Bloggers</h1>
+            <!--  i want to create a box for blog-post box  -->
+            <div class='about-meta'>
+                <div class='author-info'>
+                    <div>
+                       <b> Author : Harshi (The Designer) </b>
+
+                    </div>
+                    <div> Dec 1 2023 | 7min read </div>
+                </div>
+                <div class='social'>
+                    <img src='img/applelogo.png' alt='logo' id="editLogo" srcset=''>
+                </div>
+            </div>
+            
+            <p class="font1">One reason for coding is to enable communication in places where ordinary plain language, spoken or written, is difficult or impossible. For example, semaphore, where the configuration of flags held by a signaler or the arms of a semaphore tower encodes parts of the message, typically individual letters, and numbers. Another person standing a great distance away can interpret the flags and reproduce the words sent.</p>
+            
+            <p class="font1">The process of encoding converts information from a source into symbols for communication or storage. Decoding is the reverse process, converting code symbols back into a form that the recipient understands, such as English or/and Spanish.</p>
+            
+            <p class="font1">In this section, we consider codes that encode each source (clear text) character by a code word from some dictionary, and concatenation of such code words give us an encoded string. Variable-length codes are especially useful when clear text characters have different probabilities; see also entropy encoding.</p>
+
+            <p class="font1">A prefix code is a code with the "prefix property": there is no valid code word in the system that is a prefix (start) of any other valid code word in the set. Huffman coding is the most known algorithm for deriving prefix codes. Prefix codes are widely referred to as "Huffman codes" even when the code was not produced by a Huffman algorithm. Other examples of prefix codes are country calling codes, the country and publisher parts of ISBNs, and the Secondary Synchronization Codes used in the UMTS WCDMA 3G Wireless Standard.
+
+            Kraft's inequality characterizes the sets of codeword lengths that are possible in a prefix code. Virtually any uniquely decodable one-to-many code, not necessarily a prefix one, must satisfy Kraft's inequality.</p>
+           
+        </div>
+    
+    <div class='max-width-1  m-auto'>
+        <!-- to create a line after content is over , exactly in center -->
+        <hr> 
+    </div>
+
+    <!-- now we want to create a articles for home-page , so that user can see so many articles and click and get response -->
+    <div class='home-articles  max-width-1  m-auto  font2'>
+        <h2>People who read this also read</h2>
+        <!--  i want to take all articles in a row  -->
+        <div class='row'>
+            <!-- to focus on a single article --individually -->
+            <div class='home-article  more'>
+                <div class='home-article-img'>
+                    <img src='img/lawfirm.jpg' alt='Cloud-Image' srcset=''>
+                </div>
+                <div class='home-article-content  center  font1'>
+                    <a href='/https://www.americanbar.org/groups/professional_responsibility/publications/professional_lawyer/27/1/the-future-law-firms-and-lawyers-the-age-artificial-intelligence/.html'><h3> How Lawayers Turn The Tables </h3></a>
+                    <div>Author Name</div>
+                    <!-- cuz i want to bring author-name and date on diff cols -->
+                    <span> October 1 | 5 min read...</span>
+                </div>
+            </div>
+            <!-- to focus on a single article --individually -->
+            <div class='home-article  more'>
+                <div class='home-article-img'>
+                    <img src='img/addiction.jpg' alt='Cloud-Image' srcset=''>
+
+                </div>
+                <div class='home-article-content  center  font1'>
+                    <a href='https://www.verywellmind.com/overcoming-addiction-4157285' target="_blank"><h3> How To Resolve Addiction </h3></a>
+                    <div>Author Name</div>
+                    <span> November 12 | 5 min read...</span>
+                </div>
+            </div>
+            <!-- to focus on a single article --individually -->
+            <div class='home-article  more'>
+                <div class='home-article-img'>
+                    <img src='img/gaming.jpg' alt='Cloud-Image' srcset=''>
+
+                </div>
+                <div class='home-article-content  center  font1'>
+                    <a href='https://www.bbc.com/worklife/article/20201215-how-online-gaming-has-become-a-social-lifeline' target="_blank"><h3> Experience Online Gaming World </h3></a>
+                    <div>Author Name</div>
+                    <span> December 1 | 5 min read...</span>
+                </div>
+            </div>
+        </div>        
+    </div>    
+    <!-- to create a footer and its content -->
+    <div class='footer  max-width-2  m-auto'>
+        <p> Copyright &copy; G-Blogs.com </p>
+       <a href='https://www.vecteezy.com/free-vector/typing' target="_blank">Vector Credits: Vecteezy</a> 
+    </div>
+</body>
+</html>

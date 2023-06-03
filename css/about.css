@@ -1,0 +1,61 @@
+/* i want to keep track of bg-image of blogpost */
+.post-img {
+    height: 404px;
+    overflow: hidden; /*to make it just in background*/
+    /* margin-top: 14px; */
+}
+.post-img img{
+    width: 100%;
+}
+
+.blog-post-content  h1 {
+    text-align: center;
+    justify-content: center;
+}
+
+.blog-post-content p{
+    font-size: 20px;
+}
+
+/* we want all the articles in a single-row */
+.row{
+    display: flex;
+}
+
+.more{
+    flex-direction: column; /* to make that text and iamge appear on the different cols */
+    justify-content: center;
+    align-items: center;
+}
+
+.blogpost-meta{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between; /*to leave space between the for-texts below the heaven-for-bloggers */
+}
+
+/* add some margin */
+.author-info{
+    margin: 12px 0;
+}
+/* space-between date and author  */
+.author-info div{
+    padding: 4px 0px;
+    font-family: var(--font2);
+}
+
+/* i want to edit the right side logo  */
+#editLogo{
+    width: 100px;
+    /* height: 100px; */
+    border: 2px solid blueviolet;
+    border-radius: 70%;
+    align-self: center;
+
+}
+/* to change the effects for applelogo when hovered */
+.social img:hover{
+    cursor: pointer;
+    background-color: aqua;
+    filter:drop-shadow(40%)
+}

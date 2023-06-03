@@ -1,0 +1,28 @@
+.contact-content{
+    /* height:395px; this is a bigger cuz of image-right-side */
+    height: 100vh; /*for proper balancing in responsive for whole form*/
+    /* background-color: #f5f5f1; */
+    display: block; /*to make the feel-free-to-contact at left side*/
+    padding: 9px;
+    position: relative;
+    overflow: hidden; /*i dont want us to scroll down on the page */
+}
+
+.contact-content::after{
+    content: "";
+    background-image: url(../img/Newbackground.png); /*for the image to appear we need height and width*/
+    position: absolute;
+    top: 0; /*that feel-free-to-contact comes up in bg-image*/
+    width: 100%;
+    height: inherit;
+    opacity: 0.18;
+    border-radius: 10px;
+    z-index: -1; /*i want to get the cursor for submit button*/
+}
+
+/* i want to edit the textarea  */
+.contact-form input,textarea{
+    width: 44vw;
+    padding: 10px 6px;
+    margin: 7px 0px; /*0px => i want to bring submit button in same column vise */
+}

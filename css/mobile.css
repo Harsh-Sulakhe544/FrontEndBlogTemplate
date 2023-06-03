@@ -1,0 +1,66 @@
+@media screen and (max-width:1200px) {
+    .navigation{
+        flex-direction: column; /*when responsive , then diff ele in diff column*/
+        margin-bottom: 23px; /*search bar should have margin*/
+    }
+    .nav-left{
+        flex-direction: column; /* when responsive , logo of blogger is above nav-bar  */
+        text-align: center;
+    }
+    /* i dont want to show that image , in mobile  */
+    .content-right{
+        display: none;
+    }
+    .home-article{
+        /* i want articles line by line  */
+        flex-direction: column;
+    }
+    /* proper text-management beside text  */
+    .home-article-img {
+        text-align: center;
+    }
+    /* that year 2022 , 2023 is giving problem */
+    .year-box{
+        top: 25px; 
+        left:60vw;
+        font-size: 11px;
+        display: flex;
+    }
+    .year-box div{
+        margin: 0;
+        padding: 0 6px;
+    }
+    /* to change the width of the images  */
+    .home-article img{
+        width: 70vw;
+    }
+    /* to adjust the search-bar and  article-search */
+    .form-input{
+        width: 50%;
+    }
+    /* to adjust the width of contact-form */
+    .form-box input, textarea{
+        width: 66vw;
+    }
+    /* to manage all that articles  */
+    .row{
+        flex-direction: column;
+    }
+    /* to manage apple logo */
+    .social{
+        padding: 0px;
+    }
+    /* to reduce the gap  */
+    .post-img{
+        height: auto;
+    }
+    /* to adjust that year to right-side  */
+    .adjust-year{
+        position: static;
+        height: auto;
+        padding: 12px 0px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}
